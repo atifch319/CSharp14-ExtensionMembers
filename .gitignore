@@ -1,0 +1,30 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+TestResults/
+[Cc]overage/
+*.nupkg
+*.snupkg
+
+# IDE and user files
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+
+# Secrets and local environment
+.env
+.env.*
+*.env
+secrets.json
+appsettings.*.local.json
+
+# Logs and generated files
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

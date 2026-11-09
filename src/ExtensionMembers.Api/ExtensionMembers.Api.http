@@ -1,0 +1,31 @@
+@ExtensionMembers.Api_HostAddress = http://localhost:5080
+
+GET {{ExtensionMembers.Api_HostAddress}}/api/orders
+Accept: application/json
+
+###
+
+GET {{ExtensionMembers.Api_HostAddress}}/api/orders/1
+Accept: application/json
+
+###
+
+GET {{ExtensionMembers.Api_HostAddress}}/api/orders/high-value
+Accept: application/json
+
+###
+
+GET {{ExtensionMembers.Api_HostAddress}}/api/orders/insights
+Accept: application/json
+
+###
+
+POST {{ExtensionMembers.Api_HostAddress}}/api/orders
+Content-Type: application/json
+
+{
+  "customerName": "Ada Lovelace",
+  "totalAmount": 1500
+}
+
+###
